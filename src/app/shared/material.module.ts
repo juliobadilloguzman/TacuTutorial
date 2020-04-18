@@ -23,6 +23,7 @@ import {MatSelectModule} from '@angular/material/select';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import { MatPaginatorModule } from '@angular/material/paginator';
+import { CdkTableModule } from '@angular/cdk/table';
 
 
 @NgModule({
@@ -50,7 +51,8 @@ import { MatPaginatorModule } from '@angular/material/paginator';
     MatProgressSpinnerModule,
     MatChipsModule,
     MatDividerModule,
-    MatSliderModule
+    MatSliderModule,
+    CdkTableModule
   ],
   exports: [
     LayoutModule,
@@ -75,7 +77,8 @@ import { MatPaginatorModule } from '@angular/material/paginator';
     MatProgressSpinnerModule,
     MatChipsModule,
     MatDividerModule,
-    MatSliderModule
+    MatSliderModule,
+    CdkTableModule
   ],
   declarations: []
 })
